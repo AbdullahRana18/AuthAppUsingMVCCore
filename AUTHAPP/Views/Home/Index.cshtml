@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Welcome to AUTHAPP";
+}
+
+<div class="container mt-5 text-center">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h1 class="display-4 fw-bold text-success">Welcome back, @User.Identity.Name 👋</h1>
+        <p class="lead text-muted">You are successfully logged in.</p>
+
+        <a href="/Identity/Account/Manage" class="btn btn-primary btn-lg me-2">
+            <i class="bi bi-gear"></i> Manage Account
+        </a>
+        <a href="/Identity/Account/Logout" class="btn btn-danger btn-lg">
+            <i class="bi bi-box-arrow-right"></i> Logout
+        </a>
+    }
+    else
+    {
+        <h1 class="display-3 fw-bold text-primary">🚀 Welcome to AUTHAPP</h1>
+        <p class="lead text-muted mt-3">
+            Secure authentication with Email Confirmation in <strong>ASP.NET Core 9</strong>.
+        </p>
+        <hr class="my-4 w-50 mx-auto" />
+
+        <p class="mb-4">
+            Learn how to build secure, modern, and beautiful web apps with
+            <a href="https://learn.microsoft.com/aspnet/core" target="_blank">ASP.NET Core</a>.
+        </p>
+
+        <a href="/Identity/Account/Register" class="btn btn-success btn-lg px-4 me-2">
+            <i class="bi bi-person-plus"></i> Get Started
+        </a>
+        <a href="/Identity/Account/Login" class="btn btn-outline-primary btn-lg px-4">
+            <i class="bi bi-box-arrow-in-right"></i> Login
+        </a>
+    }
+</div>

@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New folder\\AUTHAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\authapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\authapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\migrations\\20250811103505_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\migrations\\20250811103505_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\areas\\identity\\data\\applicationdpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\areas\\identity\\data\\applicationdpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|d:\\new folder\\authapp\\authapp\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A5ECB2A-1163-4B4E-B957-9283E1E72011}|AUTHAPP\\AUTHAPP.csproj|solutionrelative:authapp\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AUTHAPP\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AUTHAPP\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T11:17:25.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Services\\EmailSender.cs",
+              "RelativeToolTip": "AUTHAPP\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:05:37.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AUTHAPP",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\AUTHAPP.csproj",
+              "RelativeDocumentMoniker": "AUTHAPP\\AUTHAPP.csproj",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\AUTHAPP.csproj",
+              "RelativeToolTip": "AUTHAPP\\AUTHAPP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-11T11:04:52.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T10:41:00.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "AUTHAPP\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAYwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:36:01.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AUTHAPP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AUTHAPP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvy0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T10:25:32.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\appsettings.json",
+              "RelativeDocumentMoniker": "AUTHAPP\\appsettings.json",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\appsettings.json",
+              "RelativeToolTip": "AUTHAPP\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T10:33:46.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Program.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Program.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Program.cs",
+              "RelativeToolTip": "AUTHAPP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:27:04.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250811103505_Initial.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Migrations\\20250811103505_Initial.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Migrations\\20250811103505_Initial.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Migrations\\20250811103505_Initial.cs",
+              "RelativeToolTip": "AUTHAPP\\Migrations\\20250811103505_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:35:05.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDpContext.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Data\\ApplicationDpContext.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Areas\\Identity\\Data\\ApplicationDpContext.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Data\\ApplicationDpContext.cs",
+              "RelativeToolTip": "AUTHAPP\\Areas\\Identity\\Data\\ApplicationDpContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:29:38.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "APPUser.cs",
+              "DocumentMoniker": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Data\\APPUser.cs",
+              "RelativeDocumentMoniker": "AUTHAPP\\Areas\\Identity\\Data\\APPUser.cs",
+              "ToolTip": "D:\\New folder\\AUTHAPP\\AUTHAPP\\Areas\\Identity\\Data\\APPUser.cs",
+              "RelativeToolTip": "AUTHAPP\\Areas\\Identity\\Data\\APPUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:28:24.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
