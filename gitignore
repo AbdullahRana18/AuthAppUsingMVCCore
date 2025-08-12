@@ -1,0 +1,23 @@
+# Ignore Visual Studio cache and build folders
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Build output
+*.dll
+*.exe
+*.pdb
+
+# Other temp files
+*.cache
+*.json
+
+
+AUTHAPP/bin/
+AUTHAPP/obj/
+*.user
+*.suo

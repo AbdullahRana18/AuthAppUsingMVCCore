@@ -21,11 +21,15 @@ namespace AUTHAPP.Areas.Identity.Pages.Account
     public class LoginModel : PageModel
     {
         private readonly SignInManager<APPUser> _signInManager;
+        private readonly UserManager<APPUser> _userManager;
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<APPUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<APPUser> signInManager,
+            UserManager<APPUser> userManager,
+            ILogger<LoginModel> logger)
         {
             _signInManager = signInManager;
+            _userManager = userManager;
             _logger = logger;
         }
 
@@ -116,7 +120,16 @@ namespace AUTHAPP.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                    var user = await _userManager.FindByEmailAsync(Input.Email);
+                    if(await _userManager.IsInRoleAsync(user, "Admin"))
+                    {
+                        return RedirectToAction("Dashboard", "Admin");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                    //return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
                 {

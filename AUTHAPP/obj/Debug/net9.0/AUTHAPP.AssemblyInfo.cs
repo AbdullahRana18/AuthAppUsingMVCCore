@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AUTHAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d564141a722674bbee9c416496deed912e6f1f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee8cbfd9d7a9fa6fb2294a64e6230f233d8073ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("AUTHAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AUTHAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
