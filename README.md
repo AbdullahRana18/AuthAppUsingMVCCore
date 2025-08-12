@@ -1,55 +1,67 @@
-# AuthApp – ASP.NET Core Identity Authentication System
+# 🔐 AuthApp - ASP.NET Core MVC Authentication & Authorization
 
-## 📌 Overview
-AuthApp is a secure authentication and account management system built with **ASP.NET Core MVC** and **Identity**.  
-It provides user registration, login, logout, email confirmation, password reset, two-factor authentication, and account management features with **SMTP email integration**.
-
----
-
-## ✨ Features
-- 🔐 **User Authentication** (Login, Logout, Register)  
-- 📧 **Email Confirmation**  
-- 🔑 **Forgot & Reset Password**  
-- 🔒 **Two-Factor Authentication (2FA)** via Email  
-- ⚙ **Account Management** (Update Profile, Change Password)  
-- 📬 **SMTP Email Sending** (Configured for Gmail)  
+A complete authentication and authorization system built with **ASP.NET Core MVC** and **Identity**.  
+Supports **Role-based Access (Admin & User)**, **User Management**, **Email Confirmation**, **2FA**, and **Responsive Bootstrap UI**.
 
 ---
 
-## 📄 Pages & Routes
+## 🚀 Features
 
-### Authentication
-- `/Account/Register` → New user registration  
-- `/Account/Login` → User login  
-- `/Account/Logout` → User logout  
-- `/Account/ForgotPassword` → Request password reset link  
-- `/Account/ResetPassword` → Reset password  
-- `/Account/ConfirmEmail` → Email confirmation  
-- `/Account/TwoFactorAuthentication` → 2FA verification page  
+### 🔑 Authentication
+- User Registration & Login
+- Secure Password Hashing
+- Email Confirmation before Login
+- Forgot Password & Reset via Email
 
-### Account Management
-- `/Account/Manage` → Update profile and account settings  
+### 🛡 Authorization
+- **Two Roles**: `Admin` & `User`
+- Admin can view **all registered users**
+- User dashboard separate from Admin dashboard
+
+### 👤 User Management (Admin Only)
+- Create, Edit, Delete Users
+- Assign/Change Roles
+- View all registered users in a table
+
+### 📧 Email & Security
+- SMTP-based Email Sending (Gmail)
+- Password Reset Email
+- Two-Factor Authentication (2FA) via Email
+
+### 🎨 UI / UX
+- Responsive UI with **Bootstrap 5**
+- Custom Login, Register, and Dashboard pages
+- Role-specific navigation menu
 
 ---
 
-## 🛠 Getting Started
+## 📦 Technologies Used
+- **ASP.NET Core MVC 9**
+- **Entity Framework Core** (SQL Server)
+- **ASP.NET Core Identity**
+- **Bootstrap 5**
+- **SMTP Email (Gmail)**
+- **C# 12**
+
+---
+
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
 
-git clone https://github.com/YourUsername/AuthApp.git
-cd AuthApp
-
 
 2️⃣ Configure Database
-Update appsettings.json:
+Edit appsettings.json and update the SQL Server connection string:
+
 "ConnectionStrings": {
   "ApplicationDbContextConnection": "Server=YOUR_SERVER;Database=AUTHAPP;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True;"
 }
 
 
+
 3️⃣ Configure Email Settings
-Set Gmail SMTP details in appsettings.json:
+In appsettings.json, set your Gmail SMTP details:
 
 "EmailSettings": {
   "Host": "smtp.gmail.com",
@@ -59,28 +71,53 @@ Set Gmail SMTP details in appsettings.json:
 }
 
 
+
+⚠️ Note: Use an App Password for Gmail, not your normal account password.
+
+
+
 4️⃣ Apply Migrations & Run
+
 dotnet ef database update
 dotnet run
 
 
-  📦 Technologies Used
-ASP.NET Core MVC
+👥 Default Roles & Admin Setup
+When the application starts for the first time:
 
-Identity (Authentication & Authorization)
+Roles: Admin and User will be created automatically.
 
-Entity Framework Core (SQL Server)
+Default Admin Account:
 
-Bootstrap 5 (Responsive UI)
+Username: Admin
 
-SMTP Email (Gmail)
+Password: Admin@123
+
+Email: admin@example.com (update in seeding logic if needed)
+
+
+📂 Project Structure
+AuthAppUsingMVCCore/
+│-- Controllers/
+│-- Models/
+│-- Views/
+│-- Data/
+│-- Services/
+│-- wwwroot/
+│-- appsettings.json
+│-- Program.cs
+│-- README.md
+
 
 
 📌 Notes
-Make sure SMTP credentials are valid.
+For production, never store passwords or SMTP credentials in appsettings.json. Use environment variables or a secure secrets manager.
 
-For production, store sensitive data in environment variables instead of appsettings.json.
+2FA will only work if email sending is properly configured.
 
-2FA will only work if email sending is configured correctly.
-git clone https://github.com/YourUsername/AuthApp.git
-cd AuthApp
+Ensure SQL Server is running before applying migrations
+
+
+💡 Developed by Abdullah Rana
+git clone https://github.com/AbdullahRana18/AuthAppUsingMVCCore.git
+cd AuthAppUsingMVCCore
